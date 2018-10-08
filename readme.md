@@ -1,11 +1,11 @@
 I'm using Ubuntu 16.04 and postreSQL version 9.5.11
 
-First of all run below command:
-$ sudo apt-get install build-essential python3-dev python3-pip python3-cffi libcairo2 libpango-1.0-0 libpangocairo-1.0-0 libgdk-pixbuf2.0-0 libffi-dev shared-mime-info
+First of all run below command in terminal:
+sudo apt-get install build-essential python3-dev python3-pip python3-cffi libcairo2 libpango-1.0-0 libpangocairo-1.0-0 libgdk-pixbuf2.0-0 libffi-dev shared-mime-info
 
 
-Create New postgresql Role with name and password:
-here I have created
+Create New postgresql Role and password:
+here I have created.
 role: 'saleor'
 password: 'saleor'
 
@@ -59,10 +59,10 @@ python manage.py runserver
 Now time to create superuser:
 python manage.py createsuperuser
 
-Email: admin@gmail.com
+Email: admin@example.com
 Password: admin
 
-Here I will explain some Basics of Saleor for three type of users:
+Create three type of users:
 
 1) Admin
 2) Staff user (some rights which can be allowed by admin)
